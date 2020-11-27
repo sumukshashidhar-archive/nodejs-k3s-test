@@ -2,7 +2,7 @@ const express = require("express");
 const os = require('os')
 const app = express();
 
-app.listen( "3000", "0.0.0.0", function() {
+app.listen( "80", "0.0.0.0", function() {
     console.log(`Listening on 3000`)
 })
 
